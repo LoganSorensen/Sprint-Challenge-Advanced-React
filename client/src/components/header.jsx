@@ -9,8 +9,8 @@ const Header = () => {
     }
 
     return(
-        <div>
-            <div data-testid='header' onClick={toggleMode} className='toggle'>Toggle DarkMode</div>
+        <div className='dark-btn'>
+            <div data-testid='header' onClick={toggleMode} className='toggle'><span>☾</span> Toggle DarkMode</div>
         </div>
     )
 }

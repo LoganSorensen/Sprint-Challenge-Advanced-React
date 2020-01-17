@@ -61,7 +61,8 @@
 }
 
 .toggle {
-  width: 7%;
-  margin-left: 93%;
+  width: 8%;
+  margin-left: 91%;
   cursor: pointer;
+  text-align: center;
 }
