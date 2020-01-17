@@ -63,4 +63,5 @@
 .toggle {
   width: 7%;
   margin-left: 93%;
+  cursor: pointer;
 }

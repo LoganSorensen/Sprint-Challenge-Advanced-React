@@ -26,7 +26,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Header />
+        <Header data-testid='header'/>
         <PlayerList players={this.state.players} />
       </div>
     )

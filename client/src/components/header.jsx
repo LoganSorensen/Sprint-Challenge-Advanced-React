@@ -10,7 +10,7 @@ const Header = () => {
 
     return(
         <div>
-            <div onClick={toggleMode} className='toggle'>Toggle DarkMode</div>
+            <div data-testid='header' onClick={toggleMode} className='toggle'>Toggle DarkMode</div>
         </div>
     )
 }

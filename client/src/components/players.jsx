@@ -2,7 +2,7 @@ import React from 'react';
 
 const Players = props => {
     return (
-        <div className='player'>
+        <div data-testid='player-card' className='player'>
             <h2>{props.player.name}</h2>
             <p>{props.player.country}</p>
             <p>Searches: {props.player.searches}</p>
