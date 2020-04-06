@@ -31,3 +31,38 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.player-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+
+}
+
+.player {
+  width: 12%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 2% 1%;
+}
+
+.player:hover {
+  transform: scale(1.3);
+  transition: ease .04s;
+}
+
+.dark-mode {
+  color: #fff;
+  background-color: #313843;
+  
+}
+
+.toggle {
+  width: 8%;
+  margin-left: 91%;
+  cursor: pointer;
+  text-align: center;
+}
